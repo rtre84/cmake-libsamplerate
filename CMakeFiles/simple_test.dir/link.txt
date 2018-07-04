@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/simple_test.dir/tests/simple_test.c.o CMakeFiles/simple_test.dir/tests/util.c.o CMakeFiles/simple_test.dir/tests/calc_snr.c.o  -o simple_test libsamplerate.a /usr/local/lib/libfftw3.a 

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="libsamplerate" targetName="callback_test" />
+      <config projectName="libsamplerate" targetName="float_short_test" />
+      <config projectName="libsamplerate" targetName="nullptr_test" />
+      <config projectName="libsamplerate" targetName="streaming_test" />
+      <config projectName="libsamplerate" targetName="throughput_test" />
+      <config projectName="libsamplerate" targetName="downsample_test" />
+      <config projectName="libsamplerate" targetName="termination_test" />
+      <config projectName="libsamplerate" targetName="multi_channel_test" />
+      <config projectName="libsamplerate" targetName="snr_bw_test" />
+      <config projectName="libsamplerate" targetName="clone_test" />
+      <config projectName="libsamplerate" targetName="samplerate" />
+      <config projectName="libsamplerate" targetName="multichan_throughput_test" />
+      <config projectName="libsamplerate" targetName="varispeed_test" />
+      <config projectName="libsamplerate" targetName="simple_test" />
+      <config projectName="libsamplerate" targetName="misc_test" />
+      <config projectName="libsamplerate" targetName="callback_hang_test" />
+      <config projectName="libsamplerate" targetName="reset_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="620e53d9-9064-4c28-be5c-56299a0e4db1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/audio_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/examples/audio_out.c" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="audio_out.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/audio_out.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="443" column="25" lean-forward="true" selection-start-line="443" selection-start-column="25" selection-end-line="443" selection-end-column="25" />
+              <folding>
+                <element signature="e#244#262#0" expanded="true" />
+                <element signature="e#384#506#0" expanded="true" />
+                <element signature="e#535#558#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>audio_out.c</find>
+      <find>audio_out.c.</find>
+      <find>timewarp</find>
+      <find>audio_out</find>
+      <find>time</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/examples/audio_out.c" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/CMakeFiles/timewarp-file.dir/build.make" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="libsamplerate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libsamplerate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.callback_hang_test">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="callback_hang_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="callback_hang_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="callback_hang_test" />
+    <configuration name="callback_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="callback_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="callback_test" />
+    <configuration name="clone_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="clone_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="clone_test" />
+    <configuration name="downsample_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="downsample_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="downsample_test" />
+    <configuration name="float_short_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="float_short_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="float_short_test" />
+    <configuration name="misc_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="misc_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="misc_test" />
+    <configuration name="multi_channel_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="multi_channel_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="multi_channel_test" />
+    <configuration name="multichan_throughput_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="multichan_throughput_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="multichan_throughput_test" />
+    <configuration name="nullptr_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="nullptr_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="nullptr_test" />
+    <configuration name="reset_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="reset_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="reset_test" />
+    <configuration name="samplerate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="samplerate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="timewarp-file" />
+    <configuration name="simple_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="simple_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="simple_test" />
+    <configuration name="snr_bw_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="snr_bw_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="snr_bw_test" />
+    <configuration name="streaming_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="streaming_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="streaming_test" />
+    <configuration name="termination_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="termination_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="termination_test" />
+    <configuration name="throughput_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="throughput_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="throughput_test" />
+    <configuration name="varispeed_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libsamplerate" TARGET_NAME="varispeed_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libsamplerate" RUN_TARGET_NAME="varispeed_test" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.callback_hang_test" />
+      <item itemvalue="Application.callback_test" />
+      <item itemvalue="Application.clone_test" />
+      <item itemvalue="Application.downsample_test" />
+      <item itemvalue="Application.float_short_test" />
+      <item itemvalue="Application.misc_test" />
+      <item itemvalue="Application.multi_channel_test" />
+      <item itemvalue="Application.multichan_throughput_test" />
+      <item itemvalue="Application.nullptr_test" />
+      <item itemvalue="Application.reset_test" />
+      <item itemvalue="Application.samplerate" />
+      <item itemvalue="Application.simple_test" />
+      <item itemvalue="Application.snr_bw_test" />
+      <item itemvalue="Application.streaming_test" />
+      <item itemvalue="Application.termination_test" />
+      <item itemvalue="Application.throughput_test" />
+      <item itemvalue="Application.varispeed_test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="620e53d9-9064-4c28-be5c-56299a0e4db1" name="Default" comment="" />
+      <created>1530725003082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530725003082</updated>
+      <workItem from="1530725006878" duration="4401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4401000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="CMake" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeFiles/timewarp-file.dir/build.make">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="287" column="47" selection-start-line="287" selection-start-column="47" selection-end-line="287" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/audio_out.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="443" column="25" lean-forward="true" selection-start-line="443" selection-start-column="25" selection-end-line="443" selection-end-column="25" />
+          <folding>
+            <element signature="e#244#262#0" expanded="true" />
+            <element signature="e#384#506#0" expanded="true" />
+            <element signature="e#535#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

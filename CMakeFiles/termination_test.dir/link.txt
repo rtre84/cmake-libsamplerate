@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/termination_test.dir/tests/termination_test.c.o CMakeFiles/termination_test.dir/tests/util.c.o CMakeFiles/termination_test.dir/tests/calc_snr.c.o  -o termination_test libsamplerate.a /usr/local/lib/libfftw3.a 

@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libsamplerate"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snr_bw_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/snr_bw_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 snr_bw_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snr_bw_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/snr_bw_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 snr_bw_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/simple_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 simple_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/simple_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 simple_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callback_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/callback_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 callback_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callback_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/callback_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 callback_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="termination_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/termination_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 termination_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="termination_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/termination_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 termination_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nullptr_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/nullptr_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 nullptr_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nullptr_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/nullptr_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 nullptr_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi_channel_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/multi_channel_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 multi_channel_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi_channel_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/multi_channel_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 multi_channel_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reset_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/reset_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 reset_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reset_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/reset_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 reset_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="samplerate">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/libsamplerate.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 samplerate"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="samplerate/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/libsamplerate.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 samplerate/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/misc_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 misc_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/misc_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 misc_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streaming_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/streaming_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 streaming_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streaming_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/streaming_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 streaming_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="float_short_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/float_short_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 float_short_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="float_short_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/float_short_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 float_short_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clone_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/clone_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clone_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clone_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/clone_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clone_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="varispeed_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/varispeed_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 varispeed_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="varispeed_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/varispeed_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 varispeed_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callback_hang_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/callback_hang_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 callback_hang_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="callback_hang_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/callback_hang_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 callback_hang_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="downsample_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/downsample_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 downsample_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="downsample_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/downsample_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 downsample_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="throughput_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/throughput_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 throughput_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="throughput_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/throughput_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 throughput_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multichan_throughput_test">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/multichan_throughput_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 multichan_throughput_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multichan_throughput_test/fast">
+				<Option output="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/multichan_throughput_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src"/>
+					<Add directory="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 multichan_throughput_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src/samplerate.c">
+			<Option target="samplerate"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src/samplerate.h">
+			<Option target="samplerate"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src/src_linear.c">
+			<Option target="samplerate"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src/src_sinc.c">
+			<Option target="samplerate"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/src/src_zoh.c">
+			<Option target="samplerate"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/calc_snr.c">
+			<Option target="snr_bw_test"/>
+			<Option target="simple_test"/>
+			<Option target="callback_test"/>
+			<Option target="termination_test"/>
+			<Option target="nullptr_test"/>
+			<Option target="multi_channel_test"/>
+			<Option target="reset_test"/>
+			<Option target="misc_test"/>
+			<Option target="streaming_test"/>
+			<Option target="float_short_test"/>
+			<Option target="clone_test"/>
+			<Option target="varispeed_test"/>
+			<Option target="callback_hang_test"/>
+			<Option target="downsample_test"/>
+			<Option target="throughput_test"/>
+			<Option target="multichan_throughput_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/callback_hang_test.c">
+			<Option target="callback_hang_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/callback_test.c">
+			<Option target="callback_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/clone_test.c">
+			<Option target="clone_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/downsample_test.c">
+			<Option target="downsample_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/float_short_test.c">
+			<Option target="float_short_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/misc_test.c">
+			<Option target="misc_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/multi_channel_test.c">
+			<Option target="multi_channel_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/multichan_throughput_test.c">
+			<Option target="multichan_throughput_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/nullptr_test.c">
+			<Option target="nullptr_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/reset_test.c">
+			<Option target="reset_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/simple_test.c">
+			<Option target="simple_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/snr_bw_test.c">
+			<Option target="snr_bw_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/streaming_test.c">
+			<Option target="streaming_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/termination_test.c">
+			<Option target="termination_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/throughput_test.c">
+			<Option target="throughput_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/util.c">
+			<Option target="snr_bw_test"/>
+			<Option target="simple_test"/>
+			<Option target="callback_test"/>
+			<Option target="termination_test"/>
+			<Option target="nullptr_test"/>
+			<Option target="multi_channel_test"/>
+			<Option target="reset_test"/>
+			<Option target="misc_test"/>
+			<Option target="streaming_test"/>
+			<Option target="float_short_test"/>
+			<Option target="clone_test"/>
+			<Option target="varispeed_test"/>
+			<Option target="callback_hang_test"/>
+			<Option target="downsample_test"/>
+			<Option target="throughput_test"/>
+			<Option target="multichan_throughput_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/util.h">
+			<Option target="snr_bw_test"/>
+			<Option target="simple_test"/>
+			<Option target="callback_test"/>
+			<Option target="termination_test"/>
+			<Option target="nullptr_test"/>
+			<Option target="multi_channel_test"/>
+			<Option target="reset_test"/>
+			<Option target="misc_test"/>
+			<Option target="streaming_test"/>
+			<Option target="float_short_test"/>
+			<Option target="clone_test"/>
+			<Option target="varispeed_test"/>
+			<Option target="callback_hang_test"/>
+			<Option target="downsample_test"/>
+			<Option target="throughput_test"/>
+			<Option target="multichan_throughput_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/tests/varispeed_test.c">
+			<Option target="varispeed_test"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/config.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/samplerate.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/cmake/ClipMode.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/cmake/FindFFTW.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate/cmake/FindSndfile.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

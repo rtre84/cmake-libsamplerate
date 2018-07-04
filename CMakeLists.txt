@@ -107,22 +107,22 @@ set(EXAMPLE_SRCS
 	${PROJECT_SOURCE_DIR}/examples/timewarp-file.c
 	${PROJECT_SOURCE_DIR}/examples/varispeed-play.c)
 
-foreach(exampleSrc ${EXAMPLE_SRCS})
-	get_filename_component(exampleName ${exampleSrc} NAME_WE)
-	add_executable(${exampleName}
-		${exampleSrc}
-		${PROJECT_SOURCE_DIR}/examples/audio_out.c)
-	target_link_libraries(${exampleName} PUBLIC samplerate ${CMAKE_REQUIRED_LIBRARIES})
-	if(ALSA_FOUND)
-		target_link_libraries(${exampleName} PUBLIC ${ALSA_LIBRARY})
-	endif()
-	if(SNDFILE_FOUND)
-		target_link_libraries(${exampleName} PUBLIC ${SNDFILE_LIBRARY})
-	endif()
-	if(WIN32)
-		target_link_libraries(${exampleName} PUBLIC winmm)
-	endif()
-endforeach(exampleSrc)
+#foreach(exampleSrc ${EXAMPLE_SRCS})
+#	get_filename_component(exampleName ${exampleSrc} NAME_WE)
+#	add_executable(${exampleName}
+#		${exampleSrc}
+#		${PROJECT_SOURCE_DIR}/examples/audio_out.c)
+#	target_link_libraries(${exampleName} PUBLIC samplerate ${CMAKE_REQUIRED_LIBRARIES})
+#	if(ALSA_FOUND)
+#		target_link_libraries(${exampleName} PUBLIC ${ALSA_LIBRARY})
+#	endif()
+#	if(SNDFILE_FOUND)
+#		target_link_libraries(${exampleName} PUBLIC ${SNDFILE_LIBRARY})
+#	endif()
+#	if(WIN32)
+#		target_link_libraries(${exampleName} PUBLIC winmm)
+#	endif()
+#endforeach(exampleSrc)
 
 set(prefix ${CMAKE_INSTALL_PREFIX})
 set(exec_prefix "\${prefix}")

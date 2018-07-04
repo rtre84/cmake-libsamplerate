@@ -1,0 +1,7 @@
+"/Users/anupvasudevan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate
+-- Checking processor clipping capabilities...
+-- Checking processor clipping capabilities... none
+-- Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/anupvasudevan/Code/hacksummit-hackathon-blockchain-2018/libsamplerate
